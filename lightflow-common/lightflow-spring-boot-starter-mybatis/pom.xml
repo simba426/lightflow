@@ -12,6 +12,7 @@
     <artifactId>lightflow-spring-boot-starter-mybatis</artifactId>
 
     <dependencies>
+        <!-- lightflow 相关-->
         <dependency>
             <groupId>cn.abmis.app</groupId>
             <artifactId>lightflow-common-framework</artifactId>
