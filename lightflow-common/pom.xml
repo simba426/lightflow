@@ -13,7 +13,9 @@
     <packaging>pom</packaging>
     <description>公用的类库</description>
     <modules>
-        <module>lightflow-common-utils</module>
+        <module>lightflow-spring-boot-starter-mybatis</module>
+        <module>lightflow-common-framework</module>
+        <module>lightflow-spring-boot</module>
     </modules>
 
 
