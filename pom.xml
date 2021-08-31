@@ -48,6 +48,9 @@
         <spring-boot-starter-data-jest.version>3.2.5.RELEASE</spring-boot-starter-data-jest.version>
         <redisson.version>3.13.6</redisson.version>
 
+        <!-- MQ 相关 -->
+        <rocketmq-spring-boot-starter.version>2.1.1</rocketmq-spring-boot-starter.version>
+
         <!-- 监控相关 -->
         <skywalking.version>8.0.1</skywalking.version>
         <spring-boot-admin-starter-client.version>2.2.2</spring-boot-admin-starter-client.version>
@@ -167,6 +170,13 @@
                         <artifactId>spring-boot-starter-jdbc</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <!-- MQ 相关 -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq-spring-boot-starter.version}</version>
             </dependency>
 
             <!-- Web 相关 -->
